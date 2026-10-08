@@ -294,6 +294,7 @@
     return `
       <div class="map">
         <header class="hero">
+          <img class="hero-mascot" src="assets/mascot.png" alt="">
           <p class="eyebrow">Long division practice</p>
           <h1>Division Quest</h1>
           <p class="hero-sub">Beat a level to unlock the next one. Fewer mistakes means more stars.</p>
@@ -328,6 +329,7 @@
     const hasNext = S.levelIndex + 1 < LEVELS.length;
     return `
       <div class="level-done">
+        <img class="level-done-mascot" src="assets/mascot.png" alt="">
         <p class="eyebrow">Level ${S.levelIndex + 1} complete</p>
         <h1>${level.name}</h1>
         <div class="level-done-stars">${S.stars.map(n => `<div class="mini-stars">${starSpans(n)}</div>`).join('')}</div>
@@ -411,6 +413,7 @@
     if (S.helperUsed) meta.push('used the helper');
     return `
       <div class="done-panel">
+        <img class="done-mascot" src="assets/mascot.png" alt="">
         <div class="done-stars">${starSpans(S.earned)}</div>
         <div class="done-text">
           <h2>${titles[S.earned]} The answer is ${commas(S.p.answerText)}.</h2>
