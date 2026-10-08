@@ -1,6 +1,10 @@
-# Division Quest
+<p align="center">
+  <img src="assets/mascot.png" alt="Division Quest mascot: a green monster in a red cape holding a number 2" width="240">
+</p>
 
-**▶ [Play it here](https://umzcio.github.io/division-quest/)**
+<h1 align="center">Division Quest</h1>
+
+<p align="center"><strong>▶ <a href="https://umzcio.github.io/division-quest/">Play it here</a></strong></p>
 
 A small browser game that teaches long division step by step, from whole numbers up to decimal divisors like `0.25 ) 4,127`.
 
