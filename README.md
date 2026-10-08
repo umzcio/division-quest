@@ -1,5 +1,7 @@
 # Division Quest
 
+**▶ [Play it here](https://umzcio.github.io/division-quest/)**
+
 A small browser game that teaches long division step by step, from whole numbers up to decimal divisors like `0.25 ) 4,127`.
 
 Built for a 6th grader who was stuck on long division. Instead of only checking the final answer, it walks through every step on a graph-paper board:
@@ -13,7 +15,7 @@ Mistakes get a specific hint, and after two misses on a step the game shows the 
 
 ## Play
 
-Open `index.html` in a browser. There's no build step or install, and it works offline. Progress is saved in that browser's local storage.
+Play online at https://umzcio.github.io/division-quest/, or open `index.html` in a browser. There's no build step or install, and it works offline. Progress is saved in that browser's local storage.
 
 ## Tests
 
